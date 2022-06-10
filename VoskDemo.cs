@@ -79,12 +79,11 @@ public class VoskDemo
 
         Model model_ingles = new Model(DIRETORIO_MODEL_SPK);
         DemoSpeaker(model_ingles);
-
+        CAMINHO_ARQUIVO = @"sounds\test.wav";
         Model model = new Model(DIRETORIO_MODEL);
         //DemoBytes(model);
         //DemoFloats(model);
         DemoSpeaker(model);
-        CAMINHO_ARQUIVO = "1234.wav";
         
     }
 }
